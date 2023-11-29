@@ -34,7 +34,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info("Entered the data ingestion method or component")
         try:
-            df = pd.read_csv("notebook/data/stud.csv")
+            df = pd.read_csv("notebook\data\stud.csv")
             logging.info("Read the dataset as dataframe")
 
             os.makedirs(
@@ -66,7 +66,7 @@ class DataIngestion:
 
 if __name__ == "__main__":
     obj = DataIngestion()
-    obj.initiate_data_ingestion()
+    obj.
     # train_data, test_data = obj.initiate_data_ingestion()
 
     # data_transformation = DataTransformation()
