@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    color: #333333;
+}
+
+.form-control {
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+}
+
+select.form-control {
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="grey" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 24,0 12,24"></polygon></svg>');
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 12px);
+    background-position-y: center;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #007bb5;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+/* Additional Styling for Prediction Result */
+.result-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.result-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2ecc71;
+}
+
+.result-value {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
