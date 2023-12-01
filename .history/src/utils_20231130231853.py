@@ -9,7 +9,7 @@ import dill
 # from sklearn.metrics import r2_score
 # from sklearn.model_selection import GridSearchCV
 
-from exception import CustomException
+from src.exception import CustomException
 
 
 def save_object(file_path, obj):
@@ -25,7 +25,7 @@ def save_object(file_path, obj):
         raise CustomException(e, sys)
 
 
-# def evaluate_models(X_train, y_train, X_test, y_test, models, param):
+def evaluate_models(X_train, y_train, X_test, y_test, models, param):
 #     try:
 #         report = {}
 

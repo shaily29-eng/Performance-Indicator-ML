@@ -12,7 +12,7 @@ from exception import CustomException
 from logger import logging
 import os
 
-from utils import save_object
+from src.utils import save_object
 
 
 @dataclass
