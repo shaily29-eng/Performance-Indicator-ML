@@ -86,7 +86,7 @@ class ModelTrainer:
             #         # 'loss':['linear','square','exponential'],
             #         "n_estimators": [8, 16, 32, 64, 128, 256],
             #     },
-            # }
+            }
 
             model_report: dict = evaluate_models(
                 X_train=X_train,

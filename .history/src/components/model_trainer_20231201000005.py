@@ -86,7 +86,7 @@ class ModelTrainer:
             #         # 'loss':['linear','square','exponential'],
             #         "n_estimators": [8, 16, 32, 64, 128, 256],
             #     },
-            # }
+            }
 
             model_report: dict = evaluate_models(
                 X_train=X_train,
@@ -94,7 +94,7 @@ class ModelTrainer:
                 X_test=X_test,
                 y_test=y_test,
                 models=models,
-                # param=params,
+                param=params,
             )
 
             ## To get best model score from dict
